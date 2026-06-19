@@ -289,14 +289,14 @@ Comparação dos dois modelos lado a lado. A Regressão Linear (R² = 0,21) espa
 
 ## 🎥 Vídeos demonstrativos
 
-Para publicar, suba cada vídeo (por exemplo no YouTube como **"não listado"**) e troque `URL_AQUI` pelo link correspondente.
+Cada entrega tem um vídeo demonstrativo no YouTube. Clique para assistir.
 
 | Entrega | Vídeo |
 |---|---|
-| Parte 1 (ML + Streamlit) | [▶ Assistir](URL_AQUI) |
-| Parte 2 (algoritmos preditivos) | [▶ Assistir](URL_AQUI) |
-| Ir Além 1 (IoT + banco) | [▶ Assistir](URL_AQUI) |
-| Ir Além 2 (dashboard analítico) | [▶ Assistir](URL_AQUI) |
+| Parte 1 (ML + Streamlit) | [▶ Assistir](https://youtu.be/mBb0S6X2ffU) |
+| Parte 2 (algoritmos preditivos) | [▶ Assistir](https://youtu.be/Hy_EomNzYTY) |
+| Ir Além 1 (IoT + banco) | [▶ Assistir](https://youtu.be/eZYTyxBJhac) |
+| Ir Além 2 (dashboard analítico) | [▶ Assistir](https://youtu.be/R_TD3MM4hvI) |
 
 <br>
 
