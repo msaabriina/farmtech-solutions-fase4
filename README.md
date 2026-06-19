@@ -9,17 +9,9 @@
 <br>
 
 # FarmTech Solutions - Fase 4
-
 ## Da Coleta à Predição: Inteligência Artificial aplicada ao Agronegócio
 
 <br>
-
-## Nome do grupo
-
-**FarmTech Solutions**
-
-<br>
-
 ## 👨‍🎓 Integrantes
 
 - Karina Garta Szewczuk  RM569309
