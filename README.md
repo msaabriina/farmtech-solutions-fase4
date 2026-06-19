@@ -277,6 +277,8 @@ streamlit run dashboard/app.py
 
 ### Real vs. Previsto: Produtividade
 
+Comparação dos dois modelos lado a lado. A Regressão Linear (R² = 0,21) espalha os pontos longe da diagonal, enquanto o Random Forest (R² = 0,92) fica próximo dela, o que justifica a escolha do modelo não linear.
+
 ![Real vs Previsto - Produtividade](assets/real_vs_previsto_produtividade_t_ha.png)
 
 ### Importância das variáveis: Produtividade

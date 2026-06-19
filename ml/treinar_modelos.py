@@ -117,6 +117,7 @@ def treinar_alvo(df, alvo):
     return {
         "X_test": X_test, "y_test": y_test,
         "resultados": resultados,
+        "treinados": treinados,
         "melhor_nome": melhor_nome,
         "melhor_modelo": melhor_modelo,
     }
@@ -168,17 +169,31 @@ def grafico_dispersao(df):
 
 
 def grafico_real_vs_previsto(info, alvo):
-    modelo = info["melhor_modelo"]
+    """Compara os dois modelos (Regressao Linear x Random Forest) lado a lado,
+    mostrando real vs. previsto e o R2 de cada um. A diferenca de dispersao em
+    relacao a diagonal justifica visualmente a escolha do melhor modelo."""
+    treinados = info["treinados"]
+    resultados = info["resultados"]
     y_test = info["y_test"]
-    y_pred = modelo.predict(info["X_test"])
-    fig, ax = plt.subplots(figsize=(6, 6))
-    ax.scatter(y_test, y_pred, alpha=0.4, s=14, color="#ef6c00")
-    lims = [min(y_test.min(), y_pred.min()), max(y_test.max(), y_pred.max())]
-    ax.plot(lims, lims, "--", color="gray", label="Previsão perfeita")
-    ax.set_xlabel(f"Real - {ALVOS[alvo]}")
-    ax.set_ylabel(f"Previsto - {ALVOS[alvo]}")
-    ax.set_title(f"Real vs. Previsto ({info['melhor_nome']})")
-    ax.legend()
+    X_test = info["X_test"]
+    nomes = list(treinados.keys())
+    cores = {"Regressão Linear": "#1565c0", "Random Forest": "#ef6c00"}
+
+    fig, axs = plt.subplots(1, len(nomes), figsize=(11, 5.2),
+                            sharex=True, sharey=True)
+    if len(nomes) == 1:
+        axs = [axs]
+    for ax, nome in zip(axs, nomes):
+        y_pred = treinados[nome].predict(X_test)
+        ax.scatter(y_test, y_pred, alpha=0.4, s=14, color=cores.get(nome, "#6a1b9a"))
+        lims = [min(y_test.min(), y_pred.min()), max(y_test.max(), y_pred.max())]
+        ax.plot(lims, lims, "--", color="gray", label="Previsão perfeita")
+        marca = "  (melhor)" if nome == info["melhor_nome"] else ""
+        ax.set_title(f"{nome}{marca}\nR² = {resultados[nome]['R2']:.2f}")
+        ax.set_xlabel(f"Real - {ALVOS[alvo]}")
+        ax.legend(loc="upper left", fontsize=8)
+    axs[0].set_ylabel(f"Previsto - {ALVOS[alvo]}")
+    fig.suptitle(f"Real vs. Previsto - {ALVOS[alvo]}", fontsize=12, weight="bold")
     fig.tight_layout()
     caminho = os.path.join(PASTA_ASSETS, f"real_vs_previsto_{alvo}.png")
     fig.savefig(caminho, dpi=120)
