@@ -1,0 +1,56 @@
+﻿Leitura;Tempo de simulacao (s);Cultura monitorada;Umidade do solo (%);Situacao da umidade;Valor do LDR;pH simulado;Situacao do pH;Nitrogenio (N);Fosforo (P);Potassio (K);Total de nutrientes bons;Status da bomba;Decisao do sistema
+1;0;Milho;40.00;Solo umido;3022;Alcalino;pH fora da faixa ideal;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+2;2;Milho;40.00;Solo umido;2809;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+3;4;Milho;40.00;Solo umido;2809;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+4;6;Milho;40.00;Solo umido;2707;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+5;8;Milho;40.00;Solo umido;2722;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+6;10;Milho;40.00;Solo umido;2645;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+7;12;Milho;40.00;Solo umido;2775;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+8;14;Milho;40.00;Solo umido;2504;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+9;16;Milho;40.00;Solo umido;2481;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+10;18;Milho;40.00;Solo umido;2235;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+11;20;Milho;40.00;Solo umido;2021;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+12;22;Milho;40.00;Solo umido;2085;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+13;24;Milho;40.00;Solo umido;2163;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+14;26;Milho;40.00;Solo umido;2174;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+15;28;Milho;40.00;Solo umido;2269;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+16;30;Milho;40.00;Solo umido;2419;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+17;32;Milho;40.00;Solo umido;2219;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+18;34;Milho;40.00;Solo umido;2105;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+19;36;Milho;66.50;Solo umido;2192;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+20;38;Milho;63.50;Solo umido;2003;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+21;40;Milho;67.50;Solo umido;1994;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+22;42;Milho;67.50;Solo umido;1879;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+23;44;Milho;40.50;Solo umido;1792;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+24;46;Milho;10.50;Solo seco;1658;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+25;48;Milho;10.50;Solo seco;1637;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+26;50;Milho;10.50;Solo seco;1548;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+27;52;Milho;10.50;Solo seco;1400;Acido;pH fora da faixa ideal;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o pH esta fora da faixa ideal
+28;54;Milho;10.50;Solo seco;1327;Acido;pH fora da faixa ideal;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o pH esta fora da faixa ideal
+29;56;Milho;10.50;Solo seco;1513;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+30;58;Milho;10.50;Solo seco;1666;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+31;60;Milho;10.50;Solo seco;1781;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+32;62;Milho;10.50;Solo seco;1752;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+33;64;Milho;10.50;Solo seco;1745;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+34;66;Milho;10.50;Solo seco;1765;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+35;69;Milho;10.50;Solo seco;1901;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+36;71;Milho;10.50;Solo seco;1945;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+37;73;Milho;10.50;Solo seco;1939;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+38;75;Milho;10.50;Solo seco;1867;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+39;77;Milho;10.50;Solo seco;1960;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+40;79;Milho;100.00;Solo umido;1782;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+41;81;Milho;100.00;Solo umido;1906;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+42;83;Milho;0.00;Solo seco;1857;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+43;85;Milho;54.00;Solo umido;2065;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+44;87;Milho;54.00;Solo umido;1974;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+45;89;Milho;54.00;Solo umido;1893;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+46;91;Milho;54.00;Solo umido;1921;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+47;93;Milho;54.00;Solo umido;1987;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+48;95;Milho;54.00;Solo umido;1952;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+49;97;Milho;54.00;Solo umido;2124;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+50;99;Milho;54.00;Solo umido;2173;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+51;101;Milho;54.00;Solo umido;2216;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+52;103;Milho;54.00;Solo umido;2318;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+53;105;Milho;54.00;Solo umido;2132;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque o solo ainda esta umido
+54;107;Milho;18.00;Solo seco;2181;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes
+55;109;Milho;18.00;Solo seco;2346;Adequado;pH adequado;Baixo;Baixo;Baixo;0;Irrigacao desligada;Bomba desligada porque ha menos de 2 nutrientes em boas condicoes

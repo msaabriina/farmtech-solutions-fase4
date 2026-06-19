@@ -1,0 +1,21 @@
+# FarmTech Solutions - Fase 4
+# Dependencias do projeto (Python 3.10+)
+
+# Manipulacao e analise de dados
+numpy>=1.24
+pandas>=2.0
+
+# Machine Learning
+scikit-learn>=1.3
+joblib>=1.3
+
+# Visualizacao
+matplotlib>=3.7
+plotly>=5.18
+
+# Dashboard interativo
+streamlit>=1.30
+
+# Banco de dados Oracle (opcional - necessario apenas para usar o Oracle).
+# O pipeline funciona tambem com SQLite (incluso na biblioteca padrao do Python).
+oracledb>=2.0

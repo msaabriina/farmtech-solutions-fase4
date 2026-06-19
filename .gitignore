@@ -1,0 +1,17 @@
+# Banco SQLite gerado pela ingestao (recriado ao rodar ingestao_iot.py)
+database/farmtech.db
+*.db
+*.db-journal
+*.db-wal
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store

@@ -1,0 +1,54 @@
+{
+  "features": [
+    "umidade_solo",
+    "temperatura_ar",
+    "ph_solo",
+    "nitrogenio_n",
+    "fosforo_p",
+    "potassio_k"
+  ],
+  "alvos": {
+    "produtividade_t_ha": {
+      "rotulo": "Produtividade (t/ha)",
+      "melhor_modelo": "Random Forest",
+      "metricas_por_modelo": {
+        "Regressão Linear": {
+          "MAE": 2.049,
+          "MSE": 6.313,
+          "RMSE": 2.512,
+          "R2": 0.2108,
+          "R2_cv_medio": 0.275
+        },
+        "Random Forest": {
+          "MAE": 0.64,
+          "MSE": 0.672,
+          "RMSE": 0.82,
+          "R2": 0.916,
+          "R2_cv_medio": 0.8992
+        }
+      },
+      "arquivo_modelo": "ml/modelos/modelo_produtividade_t_ha.pkl"
+    },
+    "volume_irrigacao_mm": {
+      "rotulo": "Volume de irrigação (mm)",
+      "melhor_modelo": "Random Forest",
+      "metricas_por_modelo": {
+        "Regressão Linear": {
+          "MAE": 2.818,
+          "MSE": 13.764,
+          "RMSE": 3.71,
+          "R2": 0.884,
+          "R2_cv_medio": 0.8968
+        },
+        "Random Forest": {
+          "MAE": 1.081,
+          "MSE": 2.007,
+          "RMSE": 1.417,
+          "R2": 0.9831,
+          "R2_cv_medio": 0.984
+        }
+      },
+      "arquivo_modelo": "ml/modelos/modelo_volume_irrigacao_mm.pkl"
+    }
+  }
+}
